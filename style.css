@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#imgMenu{
+    margin: 1rem 2rem;
+}
+
+#rectangleInformation{
+    margin-left: 8rem;
+    width: min(90vw, 900px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.topRectangle{
+    width: 400px;
+    height: 170px;
+    background-color: gray;
+}
+
+.topRectangleInfo{
+    width: 348px;
+    height: 70px;
+    background-color: gray;
+}
+
+.graphic{
+    margin-left: 8rem;
+    width: min(90vw, 900px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.graphicInformation{
+    margin-top: 2rem;
+    width: 850px;
+    height: 450px;
+    background-color: gray;
+}
+
+.statistics{
+    margin-top: 2rem;
+    width: 350px;
+    height: 450px;
+    background-color: gray;
+}
+
+.statisticsInformation{
+    margin: 1rem;
+    width: 315px;
+    height: 70px;
+    background-color: lightgray;
+}
